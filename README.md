@@ -2,8 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { Phone, CheckCircle, Clock, XCircle, User, Calendar, FileText, Copy, BarChart2, Filter, ArrowRight, Save, MessageSquare, Globe, ChevronRight, Sparkles, Send, RefreshCw, Mail, ClipboardCopy } from 'lucide-react';
 
 // --- API CONFIGURATION ---
-// ⚠️ IMPORTANT: For the AI to work on Vercel, you must put your API key inside these quotes.
-const apiKey = ""; 
+// AIzaSyC_tS5pMOnrYCNrVJNP2F7Svz4gBX_5rLM""; 
 
 // --- REAL LEADS DATA (Imported from CSV) ---
 const INITIAL_LEADS = [
